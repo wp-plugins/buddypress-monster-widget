@@ -15,6 +15,7 @@ Provides a quick and easy method of adding all BuddyPress core widgets to a side
 Based on Monster Widget, this plugin consolidates all BuddyPress core widgets into a single widget enabling theme developers to create multiple instances with ease. It has been created to save time during theme development and review by minimizing the steps needed to populate a sidebar with widgets. This widget is not designed for use in production.
 
 BuddyPress widgets included:
+
 * Log in 
 * Members
 * Who's Online
@@ -54,8 +55,13 @@ None at this time.
 
 ==Changelog==
 
-= v0.1 - October 13, 2014 =
+= 0.2 - October 21, 2014 =
+* Correct hook bp_widgets_init. Props @sbrajesh.
+
+= 0.1 - October 13, 2014 =
 * Original Release.
 
 ==Upgrade Notice==
-*
+
+= 0.2 - October 21, 2014 =
+* Correct hook bp_widgets_init.
