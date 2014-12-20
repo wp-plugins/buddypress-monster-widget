@@ -4,7 +4,7 @@ Contributors: mercime, imath
 Donate link: http://www.redcross.org/
 Tags: buddypress, widget, theme development 
 License: GPLv2 or later
-Requires at least: WP 3.9, BP 2.1
+Requires at least: WP 4.1, BuddyPress 2.1.1
 Tested up to: WP/BP trunk
 Stable tag: trunk
 
