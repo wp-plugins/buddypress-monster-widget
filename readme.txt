@@ -5,7 +5,7 @@ Donate link: http://www.redcross.org/
 Tags: buddypress, widget, theme development 
 License: GPLv2 or later
 Requires at least: WP 3.9, BuddyPress 2.1.1
-Tested up to: WP 4.1, BuddyPress 2.1.1
+Tested up to: WP 4.2.2, BuddyPress 2.3.1
 Stable tag: trunk
 
 Provides a quick and easy method of adding all BuddyPress core widgets to a sidebar for testing purposes.
@@ -49,11 +49,13 @@ None at this time.
 
 == Screenshots ==
 
-1. The BuddyPress Monster widget will appear in your list of available widgets.
-2. Drag it to a widget area to create an instance.
-3. View your site and see that all core widgets are displayed!
+1. From the admin dashboard: Go to Appearance > Widgets, click on the BuddyPress Monster Widget, select which sidebar you want to add it to, then click on the Add Widget button.
+2. From the admin toolbar in the frontend: Click on your site title > Widgets, click on Widget Area, click on Add Widget button, select BuddyPress Monster Widget on the new panel, click on the Save and Publish button, and exit the Customizer.
 
 ==Changelog==
+
+= 0.3 - June 15, 2015 =
+* Fix Recent Networkwide Posts
 
 = 0.2 - October 21, 2014 =
 * Correct hook bp_widgets_init. Props @sbrajesh.
@@ -62,6 +64,9 @@ None at this time.
 * Original Release.
 
 ==Upgrade Notice==
+
+= 0.3 - June 15, 2015 =
+* Fix Recent Networkwide Posts.
 
 = 0.2 - October 21, 2014 =
 * Correct hook bp_widgets_init.
